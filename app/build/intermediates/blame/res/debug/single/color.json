@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
@@ -14,24 +15,46 @@
     {
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color\\abc_secondary_text_material_light.xml"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_search_url_text.xml"
     },
     {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/color/common_plus_signin_btn_text_dark.xml"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\color\\common_plus_signin_btn_text_dark.xml"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_background_cache_hint_selector_material_light.xml"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_light.xml"
     },
     {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
@@ -58,5 +81,33 @@
     {
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_background_cache_hint_selector_material_dark.xml"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
     }
 ]

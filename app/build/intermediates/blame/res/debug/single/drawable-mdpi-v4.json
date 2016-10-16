@@ -1,9 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
     },
@@ -14,108 +15,156 @@
     {
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_text_light_focused.9.png"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_ic_googleplayservices.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_ic_googleplayservices.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_text_light_disabled.9.png"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_mtrl_alpha.png",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal.9.png"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_pressed.9.png"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_full_open_on_phone.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_full_open_on_phone.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
@@ -286,5 +335,9 @@
     {
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_plus_signin_btn_text_light_normal.9.png"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
     }
 ]

@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "C:\\Users\\ryant\\OneDrive\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v23\\abc_color_highlight_material.xml"
+=======
+        "merged": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/andrewzhaoluo/git/Dubhacks2016Part2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v23/abc_color_highlight_material.xml"
+>>>>>>> d4e1008ae2ea8a4dd4a52287830f9f26fe6e0e17
     }
 ]
