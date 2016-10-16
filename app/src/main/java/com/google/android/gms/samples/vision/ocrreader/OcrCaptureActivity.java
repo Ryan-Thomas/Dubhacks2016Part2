@@ -33,6 +33,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.StrictMode;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
@@ -57,6 +58,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
+
+import staticOCR.MicrosoftOCR;
 
 /**
  * Activity for the multi-tracker app.  This app detects text and displays the value with the
@@ -330,22 +333,22 @@ public final class OcrCaptureActivity extends AppCompatActivity {
      */
     private boolean onTap(float rawX, float rawY) {
         OcrGraphic graphic = mGraphicOverlay.getGraphicAtLocation(rawX, rawY);
-        TextBlock text = null;
-        if (graphic != null) {
-            text = graphic.getTextBlock();
-            if (text != null && text.getValue() != null) {
-                Intent data = new Intent();
-                data.putExtra(TextBlockObject, text.getValue());
-                setResult(CommonStatusCodes.SUCCESS, data);
-                finish();
-            }
-            else {
-                Log.d(TAG, "text data is null");
-            }
-        }
-        else {
-            Log.d(TAG, "no text detected");
-        }
+//        TextBlock text = null;
+//        if (graphic != null) {
+//            text = graphic.getTextBlock();
+//            if (text != null && text.getValue() != null) {
+//                Intent data = new Intent();
+//                data.putExtra(TextBlockObject, text.getValue());
+//                setResult(CommonStatusCodes.SUCCESS, data);
+//                finish();
+//            }
+//            else {
+//                Log.d(TAG, "text data is null");
+//            }
+//        }
+//        else {
+//            Log.d(TAG, "no text detected");
+//        }
         takeScreenshot();
         return true;
     }
@@ -377,6 +380,13 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                     bitmap.compress(Bitmap.CompressFormat.JPEG, quality, outputStream);
                     outputStream.flush();
                     outputStream.close();
+
+                    System.out.println("Yay!");
+                    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                    StrictMode.setThreadPolicy(policy);
+
+                    String json = MicrosoftOCR.runOCR(bitmap);
+                    System.out.println(MicrosoftOCR.toPrettyFormat(json));
 
                     openScreenshot(imageFile);
                 } catch (Throwable e) {

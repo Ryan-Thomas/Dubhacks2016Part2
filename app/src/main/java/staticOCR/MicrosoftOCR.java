@@ -19,6 +19,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.StrictMode;
 import android.renderscript.ScriptGroup;
+import android.util.Base64;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -103,6 +104,7 @@ public class MicrosoftOCR
      */
     public static String runOCR(Bitmap myBitmap ){
         try {
+
             URL url = new URL("https://api.projectoxford.ai/vision/v1.0/ocr");
             HttpURLConnection connection = (HttpURLConnection)url.openConnection();
 
@@ -110,7 +112,8 @@ public class MicrosoftOCR
 
             //header of method sent
             connection.setRequestMethod("POST");
-            connection.setRequestProperty("Content-Type", "application/json");
+            connection.setRequestProperty("Connection", "Keep-Alive");
+            connection.setRequestProperty("Content-Type", "application/octet-stream");
             connection.setRequestProperty("Ocp-Apim-Subscription-Key",
                     "7c24cf51af8041acadf92f02616ce96e");
 
@@ -119,21 +122,22 @@ public class MicrosoftOCR
             connection.setRequestProperty("detectOrientation", "True");
 
             //post of query parameters
-            OutputStream os = connection.getOutputStream();
-            BufferedWriter writer = new BufferedWriter(
-                    new OutputStreamWriter(os, "UTF-8"));
-
-            //write body of image
+            DataOutputStream dos = new DataOutputStream(connection.getOutputStream());
             ByteArrayOutputStream stream = new ByteArrayOutputStream();
-            myBitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+            myBitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
             byte[] outputInBytes = stream.toByteArray();
-            os.write(outputInBytes);
+
+            dos.write(outputInBytes, 0, outputInBytes.length);
+            dos.flush();
+
+            System.out.println(connection.getHeaderFields());
+            System.out.println(connection.getContent());
 
             //read response
             InputStream in = connection.getInputStream();
 
             String jsonString = convertStreamToString(in);
-            os.close();
+            dos.close();
 
             return jsonString;
         }
