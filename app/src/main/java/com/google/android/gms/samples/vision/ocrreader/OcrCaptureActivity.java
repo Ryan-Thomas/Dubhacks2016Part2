@@ -398,15 +398,49 @@ public final class OcrCaptureActivity extends AppCompatActivity {
 
                     HashMap<String, HashSet<String>> keyAssociation = new HashMap<String, HashSet<String>>();
                     ArrayList<String> searchWords = new ArrayList<String>();
+                    HashMap<String, HashSet<String>> altNames = new HashMap<String, HashSet<String>>();
                     searchWords.add("SUBTOTAL");
-                    searchWords.add("Total");
-                    searchWords.add("Total:");
-                    searchWords.add("Amount");
+                    searchWords.add("TOTAL");
+                    searchWords.add("TOTAL:");
+                    searchWords.add("AMT");
+                    searchWords.add("AMOUNT");
                     searchWords.add("Tax");
+                    searchWords.add("Chicken");
+                    searchWords.add("Sandwhich");
+                    searchWords.add("Sandwich");
+                    searchWords.add("Jean");
+                    searchWords.add("Blue");
+                    searchWords.add("Notebook");
+                    searchWords.add("Pizza");
+                    searchWords.add("Tea");
+                    searchWords.add("MILK");
+                    searchWords.add("FAT");
+                    searchWords.add("FRIES");
+                    searchWords.add("CheeseBurger");
+                    searchWords.add("WRAP");
+                    searchWords.add("CHECK");
 
                     for(String search: searchWords){
                         keyAssociation.put(search, TextProcessor.processText(jsonObject, search));
+                        System.out.println(search + "\t" + keyAssociation.get(search));
                     }
+
+                    HashMap<String, String> finalMap = new HashMap<String, String>();
+                    //select only single value for tag
+                    for(String search: searchWords){
+                        for(String val: keyAssociation.get(search)) {
+                            //select decimal numbers first and then others!
+                            try {
+                                if(val.contains(".") || val.contains("$")){
+                                    finalMap.put(search, val);
+                                }
+                            } catch (NumberFormatException e) {
+
+                            }
+                        }
+                    }
+
+                    System.out.println(finalMap);
 
 
                     //openScreenshot(imageFile);

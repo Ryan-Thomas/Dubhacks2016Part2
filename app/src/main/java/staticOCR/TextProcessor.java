@@ -13,9 +13,9 @@ public static HashSet<String> processText(JSONObject obj, String matchingWords){
             return returnedVals;
         }catch(JSONException e){
             System.out.println("Ya fucked up!");
-        }finally{
-            return null;
         }
+
+        return new HashSet<String>();
     }
 
     public static ArrayList<String> getYVal(JSONObject obj, ArrayList<String> matchingWords) throws JSONException{
@@ -44,7 +44,7 @@ public static HashSet<String> processText(JSONObject obj, String matchingWords){
 
                             String[] boundingValArray = boundingBox.split(",");
                             String yval = boundingValArray[1];
-                            System.out.println(yval);
+                            //System.out.println(yval);
                             toBeReturned.add(yval);
                         }
                     }
@@ -76,13 +76,13 @@ public static HashSet<String> processText(JSONObject obj, String matchingWords){
                         String yval = boundingValArray[1];
 
                         String boxHeight = boundingValArray[3];
-                        int lower = Integer.parseInt(yval) - Integer.parseInt(boxHeight);
-                        int upper = Integer.parseInt(yval);
+                        int lower = Integer.parseInt(yval) - Integer.parseInt(boxHeight) -100;
+                        int upper = Integer.parseInt(yval) + 100;
 
                         if(yValAsInt <= upper && yValAsInt >= lower){
                             String returnedMoneyText = wordArray.getJSONObject(k).getString("text");
                             returnedVals.add(returnedMoneyText);
-                            System.out.println(returnedMoneyText);
+                            //System.out.println(returnedMoneyText);
                         }
                     }
                 }
