@@ -60,6 +60,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 import staticOCR.MicrosoftOCR;
 import staticOCR.TextProcessor;
@@ -393,8 +396,18 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                     System.out.println(MicrosoftOCR.toPrettyFormat(json));
                     JSONObject jsonObject = new JSONObject(json);
 
-                    TextProcessor.processText(jsonObject, "Total");
-                    TextProcessor.processText(jsonObject, "Amount");
+                    HashMap<String, HashSet<String>> keyAssociation = new HashMap<String, HashSet<String>>();
+                    ArrayList<String> searchWords = new ArrayList<String>();
+                    searchWords.add("SUBTOTAL");
+                    searchWords.add("Total");
+                    searchWords.add("Total:");
+                    searchWords.add("Amount");
+                    searchWords.add("Tax");
+
+                    for(String search: searchWords){
+                        keyAssociation.put(search, TextProcessor.processText(jsonObject, search));
+                    }
+
 
                     //openScreenshot(imageFile);
                 } catch (Throwable e) {

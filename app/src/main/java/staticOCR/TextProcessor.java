@@ -5,15 +5,20 @@ import java.util.*;
 
 public class TextProcessor{
 
-public static void processText(JSONObject obj, String matchingWord){
+public static HashSet<String> processText(JSONObject obj, String matchingWords){
         try {
-            printMoneyVal(obj, getYVal(obj, matchingWord));
+            ArrayList<String> word = new ArrayList<String>();
+            word.add(matchingWords);
+            HashSet<String> returnedVals = printMoneyVal(obj, getYVal(obj, word));
+            return returnedVals;
         }catch(JSONException e){
             System.out.println("Ya fucked up!");
+        }finally{
+            return null;
         }
     }
 
-    public static ArrayList<String> getYVal(JSONObject obj, String matchingWord) throws JSONException{
+    public static ArrayList<String> getYVal(JSONObject obj, ArrayList<String> matchingWords) throws JSONException{
         //regions --> boundingBox, lines --> words --> text
         ArrayList<String> toBeReturned = new ArrayList<String>();
 
@@ -33,13 +38,15 @@ public static void processText(JSONObject obj, String matchingWord){
                 for(int k = 0; k < wordArray.length(); k++){
                     String text = wordArray.getJSONObject(k).getString("text");
                     //System.out.println("        " + text);
-                    if(text.equalsIgnoreCase(matchingWord)){
-                        String boundingBox = wordArray.getJSONObject(k).getString("boundingBox");
+                    for(String s : matchingWords) {
+                        if (text.equalsIgnoreCase(s)) {
+                            String boundingBox = wordArray.getJSONObject(k).getString("boundingBox");
 
-                        String[] boundingValArray = boundingBox.split(",");
-                        String yval = boundingValArray[1];
-                        System.out.println(yval);
-                        toBeReturned.add(yval);
+                            String[] boundingValArray = boundingBox.split(",");
+                            String yval = boundingValArray[1];
+                            System.out.println(yval);
+                            toBeReturned.add(yval);
+                        }
                     }
                 }
             }
@@ -48,7 +55,8 @@ public static void processText(JSONObject obj, String matchingWord){
 
     }
 
-    public static void printMoneyVal(JSONObject obj, ArrayList<String> desiredYValues) throws JSONException{
+    public static HashSet<String> printMoneyVal(JSONObject obj, ArrayList<String> desiredYValues) throws JSONException{
+        HashSet<String> returnedVals = new HashSet<String>();
         for(int x = 0; x < desiredYValues.size(); x++){
             String desiredYVal = desiredYValues.get(x);
             int yValAsInt = Integer.parseInt(desiredYVal);
@@ -73,14 +81,16 @@ public static void processText(JSONObject obj, String matchingWord){
 
                         if(yValAsInt <= upper && yValAsInt >= lower){
                             String returnedMoneyText = wordArray.getJSONObject(k).getString("text");
+                            returnedVals.add(returnedMoneyText);
                             System.out.println(returnedMoneyText);
                         }
                     }
                 }
             }
 
-        }
 
+        }
+        return returnedVals;
 
 
     }

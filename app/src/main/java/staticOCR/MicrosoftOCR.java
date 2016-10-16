@@ -130,9 +130,6 @@ public class MicrosoftOCR
             dos.write(outputInBytes, 0, outputInBytes.length);
             dos.flush();
 
-            System.out.println(connection.getHeaderFields());
-            System.out.println(connection.getContent());
-
             //read response
             InputStream in = connection.getInputStream();
 
