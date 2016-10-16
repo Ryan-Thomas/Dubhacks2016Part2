@@ -393,7 +393,7 @@ public final class OcrCaptureActivity extends AppCompatActivity {
 
                     String json = MicrosoftOCR.runOCR(bitmap);
                     //String json = MicrosoftOCR.runOCR("https://c1.staticflickr.com/3/2775/4074957339_abea7ce5af_b.jpg");
-                    System.out.println(MicrosoftOCR.toPrettyFormat(json));
+                    //System.out.println(MicrosoftOCR.toPrettyFormat(json));
                     JSONObject jsonObject = new JSONObject(json);
 
                     HashMap<String, HashSet<String>> keyAssociation = new HashMap<String, HashSet<String>>();
@@ -422,7 +422,7 @@ public final class OcrCaptureActivity extends AppCompatActivity {
 
                     for(String search: searchWords){
                         keyAssociation.put(search, TextProcessor.processText(jsonObject, search));
-                        System.out.println(search + "\t" + keyAssociation.get(search));
+                        //System.out.println(search + "\t" + keyAssociation.get(search));
                     }
 
                     HashMap<String, String> finalMap = new HashMap<String, String>();
