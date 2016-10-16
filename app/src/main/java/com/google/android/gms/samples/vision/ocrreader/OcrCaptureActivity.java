@@ -25,9 +25,14 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
 import android.hardware.Camera;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
@@ -48,7 +53,10 @@ import com.google.android.gms.samples.vision.ocrreader.ui.camera.GraphicOverlay;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Date;
 
 /**
  * Activity for the multi-tracker app.  This app detects text and displays the value with the
@@ -336,9 +344,55 @@ public final class OcrCaptureActivity extends AppCompatActivity {
             }
         }
         else {
-            Log.d(TAG,"no text detected");
+            Log.d(TAG, "no text detected");
         }
-        return text != null;
+        takeScreenshot();
+        return true;
+    }
+
+    private void takeScreenshot() {
+        final Date now = new Date();
+        android.text.format.DateFormat.format("yyyy-MM-dd_hh:mm:ss", now);
+
+        mCameraSource.takePicture(new CameraSource.ShutterCallback() {
+            @Override
+            public void onShutter() {
+                Log.d("CAMERA", "Taking picture");
+            }
+        }, new CameraSource.PictureCallback() {
+            @Override
+            public void onPictureTaken(byte[] data) {
+                ActivityCompat.requestPermissions(OcrCaptureActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
+                try {
+                    // image naming and path  to include sd card  appending name you choose for file
+                    String mPath = Environment.getExternalStorageDirectory().toString() + "/" + now + ".jpg";
+
+                    // create bitmap screen capture
+                    Bitmap bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
+
+                    File imageFile = new File(mPath);
+
+                    FileOutputStream outputStream = new FileOutputStream(imageFile);
+                    int quality = 100;
+                    bitmap.compress(Bitmap.CompressFormat.JPEG, quality, outputStream);
+                    outputStream.flush();
+                    outputStream.close();
+
+                    openScreenshot(imageFile);
+                } catch (Throwable e) {
+                    // Several error may come out with file handling or OOM
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+
+    private void openScreenshot(File imageFile) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        Uri uri = Uri.fromFile(imageFile);
+        intent.setDataAndType(uri, "image/*");
+        startActivity(intent);
     }
 
     private class CaptureGestureListener extends GestureDetector.SimpleOnGestureListener {
