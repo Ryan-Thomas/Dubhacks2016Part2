@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.1_a8dcab03f554cc78d1b91345ec39806f295b8de8.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f4e85eafa876cd7d7641244867dac3f88d71e866">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.0.0_db74ae8bdd1ea4cb267b9ef2398eef93f6e59141.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.0_ae593185f86f5dba94e815a76f4dc0ef6c2b27af.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.0_0619ae58ec7f8b5534b298eb4435b27d0c2a5609.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_a680326c4278044f053e18e006b83571c21e0f1f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.0_e5c6da031d48ee9d058a6f2ded4c10da39e22695.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_e21b232f183521994b946c3ee68ff51a1aa966f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.0_6c953cfa08b8e4eafdb523441ab7662442ef5940.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_f8c42274ee462c94ca84846714c61fe45cb3eece.jar" />
+    </item>
+    <item
+        jar="C:\Users\ryant\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\ryant\OneDrive\Downloads\android-vision-master\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_fe23431af52d2ece4141fbfd8453a8a0ae421063.jar" />
+    </item>
+
+</items>
