@@ -38,6 +38,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private TextView statusMessage;
     private TextView textValue;
 
+    public static String finalString = "";
+
     private static final int RC_OCR_CAPTURE = 9003;
     private static final String TAG = "MainActivity";
 
@@ -100,11 +102,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
             if (resultCode == CommonStatusCodes.SUCCESS) {
                 if (data != null) {
                     String text = data.getStringExtra(OcrCaptureActivity.TextBlockObject);
-                    statusMessage.setText(R.string.ocr_success);
-                    textValue.setText(text);
-                    Log.d(TAG, "Text read: " + text);
+                    statusMessage.setText(finalString);
+                    textValue.setText(finalString);
+                    Log.d(TAG, "Text read: " + finalString);
                 } else {
-                    statusMessage.setText(R.string.ocr_failure);
+                    statusMessage.setText(finalString);
                     Log.d(TAG, "No Text captured, intent data is null");
                 }
             } else {

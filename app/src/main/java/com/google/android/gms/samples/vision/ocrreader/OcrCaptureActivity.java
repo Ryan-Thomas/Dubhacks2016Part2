@@ -43,6 +43,7 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -338,24 +339,29 @@ public final class OcrCaptureActivity extends AppCompatActivity {
      * @return true if the activity is ending.
      */
     private boolean onTap(float rawX, float rawY) {
-        OcrGraphic graphic = mGraphicOverlay.getGraphicAtLocation(rawX, rawY);
-//        TextBlock text = null;
-//        if (graphic != null) {
-//            text = graphic.getTextBlock();
-//            if (text != null && text.getValue() != null) {
-//                Intent data = new Intent();
-//                data.putExtra(TextBlockObject, text.getValue());
-//                setResult(CommonStatusCodes.SUCCESS, data);
-//                finish();
-//            }
-//            else {
-//                Log.d(TAG, "text data is null");
-//            }
-//        }
-//        else {
-//            Log.d(TAG, "no text detected");
-//        }
         takeScreenshot();
+
+        OcrGraphic graphic = mGraphicOverlay.getGraphicAtLocation(rawX, rawY);
+        TextBlock text = null;
+        if (graphic != null) {
+            text = graphic.getTextBlock();
+            if (text != null && text.getValue() != null) {
+                System.out.println("Yay!");
+                Intent data = new Intent();
+                data.putExtra(TextBlockObject, MainActivity.finalString);
+                setResult(CommonStatusCodes.SUCCESS, data);
+                finish();
+            }
+            else {
+                System.out.println("Ya!");
+                Log.d(TAG, "text data is null");
+            }
+        }
+        else {
+            System.out.println("Y!");
+            Log.d(TAG, MainActivity.finalString);
+        }
+
         return true;
     }
 
@@ -439,11 +445,14 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                             }
                         }
                     }
-
                     System.out.println(finalMap);
+                    MainActivity.finalString = "";
+                    for (String key : finalMap.keySet()) {
+                        MainActivity.finalString += key + "      " + finalMap.get(key) + "\n";
+                    }
 
 
-                    //openScreenshot(imageFile);
+                    //openScreenshotview.setText(finalString);(imageFile);
                 } catch (Throwable e) {
                     // Several error may come out with file handling or OOM
                     e.printStackTrace();
