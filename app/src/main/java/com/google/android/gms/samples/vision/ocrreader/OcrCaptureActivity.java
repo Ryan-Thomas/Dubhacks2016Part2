@@ -54,12 +54,15 @@ import com.google.android.gms.samples.vision.ocrreader.ui.camera.GraphicOverlay;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 
+import org.json.JSONObject;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
 
 import staticOCR.MicrosoftOCR;
+import staticOCR.TextProcessor;
 
 /**
  * Activity for the multi-tracker app.  This app detects text and displays the value with the
@@ -386,9 +389,14 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                     StrictMode.setThreadPolicy(policy);
 
                     String json = MicrosoftOCR.runOCR(bitmap);
+                    //String json = MicrosoftOCR.runOCR("https://c1.staticflickr.com/3/2775/4074957339_abea7ce5af_b.jpg");
                     System.out.println(MicrosoftOCR.toPrettyFormat(json));
+                    JSONObject jsonObject = new JSONObject(json);
 
-                    openScreenshot(imageFile);
+                    TextProcessor.processText(jsonObject, "Total");
+                    TextProcessor.processText(jsonObject, "Amount");
+
+                    //openScreenshot(imageFile);
                 } catch (Throwable e) {
                     // Several error may come out with file handling or OOM
                     e.printStackTrace();
